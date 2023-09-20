@@ -1,0 +1,358 @@
+
+@media (max-width:772px){
+    header{
+        width: 100vw;
+        margin: 0px;
+        padding: 0;
+        height: auto;
+    }
+    .header-two{
+        border: 0.1px solid white;
+        height: 220px;
+    }    
+    .logo{
+        margin: 1vw;
+        margin-left: -19vw;
+    }
+    #nav-links{
+        display: none;
+    }
+    .header-one{
+        display: grid;
+        grid-template-columns: 1fr 1fr 0fr 1fr;
+    }
+    .hamburger-menu{
+        display: inline-flex;
+        margin: 1vw 0vw 1vw 15vw;
+    }
+    .navgroup{
+        margin: 0;
+    }
+    .navgroup a{
+        margin: 0px;
+        display: flex;
+        font-size: xx-small;
+    }
+    .text-one{
+        margin: 10% 20% 10% 10%;
+    }
+    .text-one h1{
+        font-size: 16px;
+        text-align: center;
+    }
+    .text-one h3{
+        font-size: small;
+        line-height: 20px;
+    }
+    .text-one input{
+        width: 20%;
+        padding: 4px;
+        font-size: 7px;
+        height: 25px;
+        margin-left: 3%;
+    }
+    .text-one button{
+        padding: 0px;
+        height: 25px;
+        font-size: x-small;
+        width: 7%;
+    }
+    .container{
+        display: block;
+        height: auto;
+        margin: auto;
+    }
+    .container h4{
+        text-align: justify;
+        font-size: auto;
+    }
+    
+    .buy-a-home{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .sell-a-home{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .rent-a-home{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .information{
+        margin: 10px 21% 10px 21%;
+    }
+    
+    .footer-div{
+        height: 200px;
+        display: grid;
+        justify-content: center;
+        margin: 0 10% 0 0;
+    }
+    .footer-logo img{
+        width: 80%;
+        margin: 0px 0px 0px 10px;
+    }
+    .phone-support{
+        margin: 0px 0px 0px -80px;
+        text-align: center;
+    }
+    
+    .footer-contact{
+        display: block;
+    }
+    .footer-list a{
+        text-decoration: none;
+        color: white;
+        font-size: x-small;
+    }
+    .footer-list li{
+        font-size: xx-small;    
+    }
+    .copyright-div{
+        margin: 0px  0px 0px -50px;
+        font-size: smaller;
+        text-align: center;
+        color: white;
+    }
+    .socialmedia{
+        margin: 0;
+    }
+
+
+    /* Terms  */
+    .page-wrap h3{
+        font-size: x-small;
+        line-height: 7vw;
+        margin: 1vw;
+    }
+    .page-wrap h2{
+        margin: 6vw 1vw;
+    
+    }
+    .terms{
+        line-height: 7vw;
+        text-align: justify;
+    }
+    .terms h5{
+        padding: 1vw;
+        font-weight: 600;
+        font-size: x-small;
+    }
+    .terms h6{
+        font-weight: lighter;
+        font-size: 4vw;
+        margin: 0vw 1vw 0vw 1vw;
+    }
+
+    /* PRIVACY */
+    .privacy-header{
+        background-size: 100vw;
+        height: 220px;
+    }
+    .privacy-head-text{
+        color: white;
+        font-size: large;
+    }
+    .privacy-content{
+        margin: 1vw 2vw;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 4vw;
+        text-align: justify;
+    }
+    .privacy-content h3{
+        font-size: medium;
+        font-style: italic;
+    }
+    .privacy-content h5{
+        font-weight: lighter;
+        font-size: small;
+    }
+    .privacy-one h2{
+        font-size: x-large;
+        line-height: 8vw;
+    }
+    .privacy-one h4{
+        font-weight: 100;
+        font-size: small;
+        line-height: 6vw;
+    }
+    .first-privacy h3{
+        font-weight: 100;
+        font-size: xx-small;
+        line-height: 3vw;
+        margin: 1vw;
+    }
+    
+    .data{
+        border-radius: 7vw;
+        background-color: aliceblue;
+        width: 40vw;
+        padding: 5vw;
+    }
+    .data button{
+        padding: 7px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: x-small;
+        color: white;
+        background-color: rgb(32, 32, 63);
+        margin-left: 2vw;
+        width: 17vw;
+        border-radius: 20px;
+    }
+
+    /* contact us */
+    .contact-content{
+        display: block;
+    }
+    .contact-info{
+        line-height: 8vw;
+    }
+    .contact-header{
+        background-position: 50%;
+    }
+
+    .login{
+        margin: 1vw;
+    }
+    .login form h5{
+        font-size: small;
+    }
+    .login form{
+        margin-bottom: 2px;
+    }
+    .log{
+        margin: 1vw;
+    }
+    .login-content-wrapper{
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .house-text{ 
+        line-height: 3vw;
+    }
+    .alert-div{
+        height: auto;
+    }
+    .alert-div button{
+        font-size: xx-small;
+        padding: 0%;
+    }
+    .alert-div h2{
+        font-size: large;
+    }
+    .alert-div h3{
+        font-size: medium;
+        line-height: 7vw;
+    }
+    .icon-options{
+        margin-left: 22vw;
+    }
+    
+}
+
+@media (max-width:556px){
+    .container{
+        height: auto;
+        margin: 0px;
+    }
+    .container button{
+        width: 80%;
+        padding: 2px;
+    }
+    .container h4{
+        display: none;
+        height: auto;
+    }
+    
+    .privacy-header{
+        background-size: 100vw;
+        height: 200px;
+    }
+    .second-container-images{
+        display: block;
+    }
+    .second-house-images h4{
+        line-height: 5vw;
+    }
+    .first-container-info{
+        display: block;
+        margin-top: 0%;
+    }
+    .house-text{ 
+        line-height: 5vw;
+    }
+    .alert-div{
+        height: auto;
+    }
+    .alert-div button{
+        font-size: xx-small;
+        padding: 0%;
+    }
+    .alert-div h2{
+        font-size: large;
+    }
+    .alert-div h3{
+        font-size: medium;
+        line-height: 7vw;
+    }
+    .search-buttons{
+        margin: 1% 5%;
+        gap: 20px;
+    }
+    .search-dropdowns{
+        margin: 5vw 5vw 0vw 5vw;
+    }
+    .dropdown-div select{
+        width: 30vw;
+    }
+    .buy-house-one{
+        display: block;
+    }
+    .buy-content-one{
+        display: grid;
+        line-height: 8vw;
+        margin-top: 7vw;
+    }
+    .btn-div button{
+        width: 50%;
+    }
+    #display-house{
+        width: 100%;
+        margin:  1vw 8vw 1vw 1vw;
+        padding: 7vw;
+        /* aspect-ratio: 3/3; */
+    }
+    .display-house-icons{
+        margin-right: 10%;
+    }
+    .verified-agent-info{
+        display: block;
+        margin-top: 1%;
+    }
+    .info-box{
+        padding: 0;
+        line-height: 5vw;
+    }
+    .info-btn-div button{
+        width: 30%;
+        font-size: smaller;
+    }
+    .verify-content{
+        line-height: 7vw;
+        margin: 2% 8%;
+    }
+    .personal-info{
+        line-height: 7vw;
+    }
+    .form-div{
+        padding: 0;
+    }
+    .form-div input{
+        width: 80vw;
+    }
+    .info-svg-div svg{
+        margin-top: 7px;
+    }
+}

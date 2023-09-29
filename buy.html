@@ -13,49 +13,49 @@
             <div class="navbar">
                 <ul class="navgroup">
                     <li class="nav-items" id="nav-links"><a href="buy.html">Buy</a></li>
-                    <li class="nav-items" id="nav-links"><a href="buy.html">Sell</a></li>
+                    <li class="nav-items" id="nav-links"><a href="document-verification.html">Sell</a></li>
                     <li class="nav-items" id="nav-links"><a href="buy.html">Rent</a></li>
-                    <li class="nav-items" id="nav-links"><a href="./">Post property</a></li>
+                    <li class="nav-items" id="nav-links"><a href="./faq.html">Help</a></li>
                 </ul>
             </div>
             <div class="logo-div">
-                <a href="./index.html"><img src="./Images/Logo1.png" alt="" class="logo"></a>
+                <a href="./hompage.html"><img src="./Images/Logo1.png" alt="" class="logo"></a>
             </div>
             <div class="navbar2">
                 <ul class="navgroup">
-                    <li class="nav-items" id="nav-links"><a href="document-verification.html">Verify documents</a></li>
-                    <li class="nav-items" id="nav-links"><a href="./agent.html">Agents</a></li>
-                    <li class="nav-items" id="nav-links"><button><a href="./login.html">Sign in</a></button></li>
+                    <li class="nav-items" id="nav-links"><select name="" id="" onchange="location = this.value;">
+                        <option value="">More services</option>
+                        <option value="./document-verification.html"><a href="./document-verification.html">Post Properties</a></option>
+                        <option value="document-verification.html"><a href="document-verification.html">Verify Documents</a></option>
+                    </select></li>
+                    <li class="nav-items" id="nav-links"><button id="Dashboard-btn"><a href="./agent-dashboard.html" id="Dashboard-a">Dashboard</a></button></li>
                 </ul>
             </div>
             <div class="hamburger-menu">
-                <button onclick="revealMobileList()" id="button-one"><svg xmlns="http://www.w3.org/2000/svg" width="4vw" height="3vw" viewBox="0 0 32 32"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h22M5 16h22M5 24h22"/></svg></button>
-            </div>
-        </div>
-        
-        <div class="mobile-navlist">
-                <div class="mobile-navbar">
-                    <ul class="mobile-navgroup">
-                        <li class="m-nav-items"><a href="./buy.html">Buy</a></li>
-                        <li class="m-nav-items"><a href="./buy.html">Sell</a></li>
-                        <li class="m-nav-items"><a href="./buy.html">Rent</a></li>
-                        <li class="m-nav-items"><a href="./">Post property</a></li>
-                        <li class="m-nav-items"><a href="./document-verification.html">Verify documents</a></li>
-                        <li class="m-nav-items"><a href="./agent.html">Agents</a></li>
-                        <li class="m-nav-items"><button><a href="./login.html">Sign in</a></button></li>
-                    </ul>
+                <div class="navbar">
+                    <ul class="navgroup">
+                        <li class="nav-items">
+                            <select name="select-services" id="" onchange="location = this.value;">
+                            <option value="">More services</option>
+                            <option value="/agent.html"><a href="./agent.html">Post Properties</a></option>
+                            <option value="./document-verification.html"><a href="document-verification.html">Verify Documents</a></option>
+                            <option value="buy.html"><a href="./buy.html">Buy</a></option>
+                            <option value="./document-verification.html"><a href="./document-verification.html">Sell</a></option>
+                            <option value="./buy.html"><a href="./buy.html">Rent</a></option>
+                        </select></li>
+                        <li class="nav-items"><button><a href="./agent-dashboard.html">Dashboard</a></button></li>
+                        </ul>
                 </div>
             </div>
         </div>
-
     </header>
-
+    
     <div class="Buy-content">
         <div class="buy-content-one">
             <div class="search-buttons">
-                <button type="menu">BUY</button>
-                <button>RENT</button>
-                <button>SELL</button>
+                <button type="menu"><a href="buy.html">BUY</a></button>
+                <button><a href="search-page.html">RENT</a></button>
+                <button><a href="document-verification.html">SELL</a></button>
             </div>
             <div class="buy-house-one">
                 <img src="Images/RE-B.jpg" id="display-house" alt="">
@@ -89,7 +89,7 @@
                             </div>
                         </div>
                         <div class="btn-div">
-                            <button id="contact-btn">Contact</button>
+                            <button id="contact-btn"><a href="agent.html">Contact</a></button>
                             <button id="save-btn">Save</button>
                         </div>
                     </div>
@@ -151,10 +151,10 @@
                 </div>
             </div>
             <div class="cant-find">
-                <h3>Can't find what you are looking for?</h3>
+                <h3>Can't find what you are looking for?</h3><br>
                 <div class="filter-icons">
                     <div class="filter-svg-div"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="m8.5 8.379l.44-.44l4.56-4.56V2.5h-11v.879l4.56 4.56l.44.44v4l1-1v-3ZM10 12l-2.5 2.5L6 16V9L1.293 4.293A1 1 0 0 1 1 3.586V2a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v1.586a1 1 0 0 1-.293.707L10 9v3Z" clip-rule="evenodd"/></svg>
-                    <h5>Filter Options</h5></div>
+                    <h5 id="filter">Filter Options</h5></div>
                 </div>
                 <div class="buy-search-dropdowns">
                     <h4>Property Type</h4>
@@ -220,7 +220,7 @@
                                 </select>
                             </div>
                         </div>
-                        <button>Search</button>
+                        <button><a href="search-page.html">Search</a></button>
                     </div>
                 </div>
             </div>
@@ -233,10 +233,11 @@
 
 
     
+    
     <footer>
         <div class="footer-one">
             <div class="footer-logo">
-                <a href="./index.html"><img src="./Images/Logo1.png" alt="" class="logo"></a>
+                <a href="./hompage.html"><img src="./Images/Logo1.png" alt="" class="logo"></a>
             </div>
         <div class="footer-div">
             <div class="footer-contact">
@@ -260,10 +261,11 @@
             
             <div class="footer-links">
                 <ul class="footer-list">
-                    <li class="footer-navlist"><a href="./affiliate.html">Become an affiliate</a></li>
+                    <!-- <li class="footer-navlist"><a href="./affiliate.html">Become an affiliate</a></li> -->
                     <li class="footer-navlist"><a href="./contact.html">Contact Us</a></li>
                     <li class="footer-navlist"><a href="./privacy.html">Privacy</a></li>
                     <li class="footer-navlist"><a href="./T&C.html">Terms and Conditions</a></li>
+                    <li class="footer-navlist"><a href="./faq.html">FAQs</a></li>
                 </ul>
             </div>
             <div class="copyright-div">
@@ -272,7 +274,6 @@
         </div>
         </div>
     </footer>
-
 <script src="JAVASCRIPT/index.js"></script>
 </body>
 </html>

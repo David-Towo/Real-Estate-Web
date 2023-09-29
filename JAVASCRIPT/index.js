@@ -25,17 +25,17 @@ setInterval( () =>{
     nextImage();},2000);
 
 // Then add a function to go to the next image
-// function nextImage(){
+function nextImage(){
 
-//     images[currentIndex].classList.add('hide');
-//         if(currentIndex == totalImages-1){
-//         currentIndex = -1;
-//         }else{
-//         currentIndex++;
-//         }
+    images[currentIndex].classList.add('hide');
+        if(currentIndex == totalImages-1){
+        currentIndex = -1;
+        }else{
+        currentIndex++;
+        }
 
-//     images[currentIndex].classList.remove('hide');
-// }
+    images[currentIndex].classList.remove('hide');
+}
 
 // then add the function to go to the next image
 function previousImage(){
